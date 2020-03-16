@@ -1,0 +1,21 @@
+.card-berita,
+.card-berita:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-berita .card-title {
+  transition: .5s all;
+}
+
+.card-berita:hover .card-title {
+  color: #ef5350;
+}
+
+.card-berita .card {
+  transition: .5s all;
+}
+
+.card-berita:hover .card {
+  transform: scale(1.05);
+}
